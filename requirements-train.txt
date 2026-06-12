@@ -1,0 +1,6 @@
+# Transformer training backend (GPU/Colab; tested on Python 3.10-3.12)
+torch==2.5.1
+transformers==4.46.3
+sentencepiece==0.2.0
+peft==0.13.2            # only needed for --lora
+sentence-transformers==3.3.1   # optional ST encoder for the embedding signal
