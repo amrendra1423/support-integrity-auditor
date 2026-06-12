@@ -1,0 +1,11 @@
+Ticket_ID,Priority_Level,judgment,confidence,inferred_severity,severity_delta,mismatch_type,expected,correct
+ADV-000,Low,Mismatched,0.9884,Critical,3,Hidden Crisis,Mismatched,True
+ADV-001,Critical,Mismatched,1.0,Medium,-2,False Alarm,Mismatched,True
+ADV-002,Critical,Mismatched,0.9953,Medium,-2,False Alarm,Mismatched,True
+ADV-003,Low,Mismatched,0.9998,High,2,Hidden Crisis,Mismatched,True
+ADV-004,Low,Mismatched,0.998,High,2,Hidden Crisis,Mismatched,True
+ADV-005,Low,Consistent,1.0,Medium,1,None,Consistent,True
+ADV-006,High,Consistent,1.0,High,0,None,Consistent,True
+ADV-007,Medium,Consistent,1.0,Medium,0,None,Consistent,True
+ADV-008,High,Consistent,1.0,Critical,1,None,Consistent,True
+ADV-009,Critical,Mismatched,0.9859,Low,-3,False Alarm,Mismatched,True
