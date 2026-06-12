@@ -1,14 +1,7 @@
-# Core (lite backend + signals + scripts) -- pure scientific python
-numpy==2.2.6
-pandas==2.3.3
-matplotlib==3.10.9
+# Web app + lite backend (Streamlit Cloud runs this)
+streamlit
+numpy
+pandas
+matplotlib
 
-# Web app
-streamlit==1.40.2
-
-# Transformer backend (submission-grade fine-tune; GPU/Colab recommended)
-torch==2.5.1
-transformers==4.46.3
-sentencepiece==0.2.0
-peft==0.13.2            # only needed for --lora
-sentence-transformers==3.3.1   # optional: ST encoder for the embedding signal
+# Training stack (GPU/Colab) lives in requirements-train.txt
