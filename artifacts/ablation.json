@@ -1,0 +1,44 @@
+{
+  "embedding": {
+    "pseudo_mismatch_rate": 0.10005,
+    "label_agreement_with_fusion": 0.9399,
+    "test_macro_f1_vs_fusion": 0.8158049049705081,
+    "test_recall_mismatched_vs_fusion": 0.7685589519650655
+  },
+  "resolution_time": {
+    "pseudo_mismatch_rate": 0.21635,
+    "label_agreement_with_fusion": 0.7705,
+    "test_macro_f1_vs_fusion": 0.5225366933796903,
+    "test_recall_mismatched_vs_fusion": 0.34934497816593885
+  },
+  "rule": {
+    "pseudo_mismatch_rate": 0.1268,
+    "label_agreement_with_fusion": 0.94115,
+    "test_macro_f1_vs_fusion": 0.8396630205856377,
+    "test_recall_mismatched_vs_fusion": 0.9563318777292577
+  },
+  "embedding+resolution_time": {
+    "pseudo_mismatch_rate": 0.0887,
+    "label_agreement_with_fusion": 0.93805,
+    "test_macro_f1_vs_fusion": 0.7949851140587616,
+    "test_recall_mismatched_vs_fusion": 0.6943231441048034
+  },
+  "embedding+rule": {
+    "pseudo_mismatch_rate": 0.09925,
+    "label_agreement_with_fusion": 0.9587,
+    "test_macro_f1_vs_fusion": 0.8729355907410334,
+    "test_recall_mismatched_vs_fusion": 0.8908296943231441
+  },
+  "resolution_time+rule": {
+    "pseudo_mismatch_rate": 0.08935,
+    "label_agreement_with_fusion": 0.9596,
+    "test_macro_f1_vs_fusion": 0.8484017809675704,
+    "test_recall_mismatched_vs_fusion": 0.834061135371179
+  },
+  "embedding+resolution_time+rule": {
+    "pseudo_mismatch_rate": 0.07655,
+    "label_agreement_with_fusion": 1.0,
+    "test_macro_f1_vs_fusion": 0.9587679874654682,
+    "test_recall_mismatched_vs_fusion": 0.9563318777292577
+  }
+}

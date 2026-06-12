@@ -1,0 +1,55 @@
+{
+  "accuracy": 0.993,
+  "per_class": {
+    "Consistent": {
+      "precision": 0.9971077368040492,
+      "recall": 0.9953085528690003,
+      "f1": 0.9962073324905183,
+      "support": 2771
+    },
+    "Mismatched": {
+      "precision": 0.9444444444444444,
+      "recall": 0.9650655021834061,
+      "f1": 0.9546436285097192,
+      "support": 229
+    }
+  },
+  "macro_f1": 0.9754254805001188,
+  "confusion_matrix": {
+    "tn": 2758,
+    "fp": 13,
+    "fn": 8,
+    "tp": 221
+  },
+  "verification": {
+    "checks": {
+      "accuracy >= 0.83": true,
+      "macro_f1 >= 0.82": true,
+      "recall(Consistent) >= 0.78": true,
+      "recall(Mismatched) >= 0.78": true
+    },
+    "passed": true
+  },
+  "backend": "lite",
+  "n_test": 3000,
+  "signal_agreement": {
+    "embedding|resolution_time": {
+      "level_agreement": 0.31615,
+      "within_one_level": 0.78195,
+      "cohens_kappa": 0.037697312463506716,
+      "spearman_rho": 0.11595113816763063
+    },
+    "embedding|rule": {
+      "level_agreement": 0.7253,
+      "within_one_level": 0.96595,
+      "cohens_kappa": 0.6116604430022019,
+      "spearman_rho": 0.8009060188291236
+    },
+    "resolution_time|rule": {
+      "level_agreement": 0.28635,
+      "within_one_level": 0.7292,
+      "cohens_kappa": 0.03903835808368942,
+      "spearman_rho": 0.1302585662562834
+    }
+  }
+}

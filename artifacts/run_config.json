@@ -1,0 +1,1 @@
+{"backend": "lite", "rt_median": 27.0, "fusion_weights": {"rule": 0.45, "embedding": 0.35, "resolution_time": 0.2}, "seed": 42}
